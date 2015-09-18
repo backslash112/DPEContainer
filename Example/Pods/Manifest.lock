@@ -1,0 +1,14 @@
+PODS:
+  - DPEContainer (0.1.0)
+
+DEPENDENCIES:
+  - DPEContainer (from `../`)
+
+EXTERNAL SOURCES:
+  DPEContainer:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DPEContainer: 9bec68c2fa2c7f727fe1b6e1d50b15aa1d5b1f07
+
+COCOAPODS: 0.38.2

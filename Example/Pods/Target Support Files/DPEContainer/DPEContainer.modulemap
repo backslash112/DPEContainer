@@ -1,0 +1,6 @@
+framework module DPEContainer {
+  umbrella header "DPEContainer-umbrella.h"
+
+  export *
+  module * { export * }
+}
