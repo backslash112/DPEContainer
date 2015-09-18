@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'DPEContainer_Example', :exclusive => true do
+  pod "DPEContainer", :path => "../"
+end
+
+target 'DPEContainer_Tests', :exclusive => true do
+  pod "DPEContainer", :path => "../"
+
+  
+end
