@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/DPEContainer.svg?style=flat)](http://cocoapods.org/pods/DPEContainer)
 [![Platform](https://img.shields.io/cocoapods/p/DPEContainer.svg?style=flat)](http://cocoapods.org/pods/DPEContainer)
 
-A control dynamically positioning elements by container's width for iOS
+A control dynamically position elements by container's width for iOS
 <img src="https://cloud.githubusercontent.com/assets/5343215/9956186/6be9afd2-5e29-11e5-91ad-17e38c34a924.png" alt="Screenshot" width=750 />
 
 ## Usage
