@@ -5,12 +5,31 @@
 [![License](https://img.shields.io/cocoapods/l/DPEContainer.svg?style=flat)](http://cocoapods.org/pods/DPEContainer)
 [![Platform](https://img.shields.io/cocoapods/p/DPEContainer.svg?style=flat)](http://cocoapods.org/pods/DPEContainer)
 
+A control dynamically position elements by container's width for iOS
+<img src="https://cloud.githubusercontent.com/assets/5343215/9956186/6be9afd2-5e29-11e5-91ad-17e38c34a924.png" alt="Screenshot" width=750 />
+
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+```Swift
+let container = DPEContainer(frame: self.view.frame)
+container.backgroundColor = UIColor.lightGrayColor()
+        
+let viewA = UIView(frame: CGRectMake(0, 0, 100, 100))
+viewA.backgroundColor = UIColor.redColor()
+container.addElement(viewA)
 
+let viewB = UIView(frame: CGRectMake(0, 0, 50, 100))
+viewB.backgroundColor = UIColor.greenColor()
+container.addElement(viewB)
+        
+let viewC = UIView(frame: CGRectMake(0, 0, 300, 100))
+viewC.backgroundColor = UIColor.yellowColor()
+container.addElement(viewC)
+        
+self.view.addSubview(container)
+```
 ## Installation
 
 DPEContainer is available through [CocoaPods](http://cocoapods.org). To install
@@ -22,7 +41,7 @@ pod "DPEContainer"
 
 ## Author
 
-backslash112, yangcun@live.com
+Yang Cun, yangcun@live.com
 
 ## License
 
