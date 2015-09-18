@@ -9,8 +9,24 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+```Swift
+let container = DPEContainer(frame: self.view.frame)
+container.backgroundColor = UIColor.lightGrayColor()
+        
+let viewA = UIView(frame: CGRectMake(0, 0, 100, 100))
+viewA.backgroundColor = UIColor.redColor()
+container.addElement(viewA)
 
+let viewB = UIView(frame: CGRectMake(0, 0, 50, 100))
+viewB.backgroundColor = UIColor.greenColor()
+container.addElement(viewB)
+        
+let viewC = UIView(frame: CGRectMake(0, 0, 300, 100))
+viewC.backgroundColor = UIColor.yellowColor()
+container.addElement(viewC)
+        
+self.view.addSubview(container)
+```
 ## Installation
 
 DPEContainer is available through [CocoaPods](http://cocoapods.org). To install
@@ -22,7 +38,7 @@ pod "DPEContainer"
 
 ## Author
 
-backslash112, yangcun@live.com
+Yang Cun, yangcun@live.com
 
 ## License
 
