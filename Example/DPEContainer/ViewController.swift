@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         view2.backgroundColor = UIColor.greenColor()
         container.addElement(view2)
         
-        let view3 = UIView(frame: CGRectMake(0, 0, 300, 100))
+        let view3 = UIView(frame: CGRectMake(0, 0, 150, 100))
         view3.backgroundColor = UIColor.yellowColor()
         container.addElement(view3)
         
@@ -38,11 +38,11 @@ class ViewController: UIViewController {
         view5.backgroundColor = UIColor.yellowColor()
         container.addElement(view5)
         
-        let view6 = UIView(frame: CGRectMake(0, 0, 20, 100))
+        let view6 = UIView(frame: CGRectMake(0, 0, 80, 100))
         view6.backgroundColor = UIColor.purpleColor()
         container.addElement(view6)
         
-        let view7 = UIView(frame: CGRectMake(0, 0, 60, 100))
+        let view7 = UIView(frame: CGRectMake(0, 0, 200, 100))
         view7.backgroundColor = UIColor.orangeColor()
         container.addElement(view7)
         
