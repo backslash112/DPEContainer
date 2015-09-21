@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "DPEContainer"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A control dynamically position elements by container's width for iOS"
 
 # This description is used to generate tags and improve search results.
