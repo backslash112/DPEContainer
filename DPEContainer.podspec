@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "DPEContainer"
   s.version          = "0.1.0"
-  s.summary          = "Dynamically positioning elements control for iOS"
+  s.summary          = "A control dynamically position elements by container's width for iOS"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,15 +17,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-Dynamically positioning elements control for iOS.
+A control dynamically position elements by container's width for iOS.
                        DESC
 
   s.homepage         = "https://github.com/backslash112/DPEContainer"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.screenshots     = "https://cloud.githubusercontent.com/assets/5343215/9956186/6be9afd2-5e29-11e5-91ad-17e38c34a924.png"
   s.license          = 'MIT'
-  s.author           = { "backslash112" => "yangcun@live.com" }
+  s.author           = { "Yang Cun" => "yangcun@live.com" }
   s.source           = { :git => "https://github.com/backslash112/DPEContainer.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.social_media_url = 'https://twitter.com/backslash112'
 
   s.platform     = :ios, '8.0'
   s.requires_arc = true
