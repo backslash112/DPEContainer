@@ -8,6 +8,9 @@
 
 import UIKit
 
+/*
+A control dynamically position elements by container's width for iOS.
+*/
 public class DPEContainer: UIView {
 
     var _elements: Array<UIView>? = []
